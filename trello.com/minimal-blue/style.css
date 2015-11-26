@@ -110,6 +110,14 @@ h3 {
     border: none !important;
 }
 
+.list-wrapper.placeholder {
+    background: #eee;
+}
+
+.list-wrapper:first-child {
+    margin-left: 30px !important;
+}
+
 .list-area {
     margin-top: 30px !important;
 }
@@ -199,7 +207,8 @@ h3 {
 }
 
 .window-overlay {
-    background: rgba(10, 10, 10, 0.7) !important;
+    /* blue background: rgba(30, 136, 229, 1) !important; */
+    background: rgba(255, 255, 255, 0.8) !important;
 }
 
 strong {
@@ -212,11 +221,12 @@ strong {
 }
 
 .window-title-text {
-    font-weight: 300 !important
+    font-weight: 300 !important;
+    color: #1086E8 !important;
 }
 
 .button-link {
-    font-weight: 300
+    font-weight: 300;
 }
 
 .button-link:hover {
@@ -245,7 +255,9 @@ strong {
 }
 
 .confirm:disabled {
-    background: #DDD !important
+    background: none !important;
+    border: 1px solid #eee;
+    color: #ddd !important;
 }
 
 
@@ -261,15 +273,12 @@ strong {
 
 
 /* ------------------- */
-
-
 /* --- CARD DETAIL --- */
-
-
 /* ------------------- */
 
 .window {
     background-color: #1E88E5;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .dialog-close-button {
@@ -293,6 +302,10 @@ strong {
     margin-top: 10px;
 }
 
+.window-header-icon {
+    display: none !important;
+}
+
 .window-title-text {
     font-weight: 700 !important;
 }
@@ -306,6 +319,21 @@ strong {
 
 .window-header-inline-content {
     display: none;
+}
+
+
+/* card description */
+
+.card-detail-item-header-edit {
+    display: none !important;
+}
+
+.card-detail-item-header {
+    display: none !important;
+}
+
+.card-detail-item {
+    margin-top: 12px;
 }
 
 
@@ -323,11 +351,12 @@ strong {
 /* section titles */
 
 .window-module-title-icon {
-    /*display: none !important;*/
+    display: none !important;
 }
 
 h3 {
-    font-weight: 700 !important;
+    font-weight: 300 !important;
+    color: #000;
 }
 
 .checklist-progress-bar-current {
@@ -335,12 +364,28 @@ h3 {
 }
 
 
+/* comments */
+
+.action-comment {
+    box-shadow: none !important;
+    border-left: 2px solid #1E88E5;
+    border-radius: 0px !important;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.phenom {
+    border-bottom: 1px solid #eee;
+}
+
+.window-module-title {
+    border-top: 4px solid #1086E8;
+    padding: 14px 0px 18px 0px;
+}
+
+
 /* ------------------- */
-
-
 /* --- BOARD MENU --- */
-
-
 /* ------------------- */
 
 .board-menu {
