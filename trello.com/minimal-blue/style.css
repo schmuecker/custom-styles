@@ -139,6 +139,8 @@ h3 {
 .list {
     background: #fff !important;
     border: 1px solid #eee !important;
+    border-top: 2px solid #1E88E5 !important;
+    border-radius: 0px;
 }
 
 .list-card {
@@ -220,6 +222,10 @@ strong {
     font-weight: 300 !important
 }
 
+.window-title {
+    margin-top: 20px;
+}
+
 .window-title-text {
     font-weight: 300 !important;
     color: #1086E8 !important;
@@ -279,15 +285,15 @@ strong {
 .window {
     background-color: #1E88E5;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 0px;
 }
 
 .dialog-close-button {
-    margin: 24px 24px 0px 0px !important;
+    margin: 12px 12px 0px 0px !important;
 }
 
 .window-wrapper {
     margin-top: 4px;
-    padding-top: 10px;
     background: #fff !important;
 }
 
@@ -299,7 +305,7 @@ strong {
 /* Window header */
 
 .window-header {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .window-header-icon {
@@ -379,7 +385,7 @@ h3 {
 }
 
 .window-module-title {
-    border-top: 4px solid #1086E8;
+    border-top: 2px solid #1086E8;
     padding: 14px 0px 18px 0px;
 }
 
