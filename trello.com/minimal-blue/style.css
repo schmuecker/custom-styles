@@ -22,17 +22,17 @@ h3 {
 }
 
 .js-open-board {
-    background: #979798 !important;
+    background: #fff !important;
     font-weight: 300 !important;
-    ;
+    border: 1px solid #eee;
+}
+
+.js-open-board:hover {
+    border-color: #ddd;
 }
 
 .board-canvas {
     padding-top: 20px
-}
-
-.js-open-board:hover {
-    background: #1976D2 !important
 }
 
 .thumbnail {
@@ -327,6 +327,11 @@ strong {
     display: none;
 }
 
+/* label */
+.card-label {
+    text-shadow: 1px 1px 0px rgba(0,0,0,.2),0 0 0px #000;
+}
+
 
 /* card description */
 
@@ -385,7 +390,7 @@ h3 {
 }
 
 .window-module-title {
-    border-top: 2px solid #1086E8;
+    border-top: 2px solid #1E88E5;
     padding: 14px 0px 18px 0px;
 }
 
@@ -396,4 +401,61 @@ h3 {
 
 .board-menu {
     background: #fff !important;
+}
+
+/* ----------------------- */
+/* --- BOARDS SWITCHER --- */
+/* ----------------------- */
+
+.boards-drawer {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    padding: 0px 24px;
+}
+
+.boards-drawer input {
+    margin: 6px 0px;
+}
+
+input.js-search-boards {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: none;
+    border-radius: 0px;
+    padding: 0px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+input.js-search-boards:hover {
+    border-color: #1E88E5;
+}
+
+input.js-search-boards:focus {
+    border-color: #1E88E5;
+    box-shadow: none;
+}
+
+.js-board-drawer-buttons {
+    margin: 36px 0px;
+    margin-bottom: 12px;
+    border-top: 2px solid #1E88E5;
+}
+
+.sidebar-section-header-toggle-icon:hover {
+    background: none;
+}
+
+.quiet-button:hover {
+    background: none;
+    color: #1E88E5;
+}
+
+.boards-drawer .empty, .boards-drawer .quiet-button {
+    margin: 12px 0px;
+    padding: 0px;
+}
+
+.sidebar-section-header {
+    margin: 1pc 30px 10px 0px;
+    position: relative;
 }
