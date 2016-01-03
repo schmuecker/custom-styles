@@ -23,7 +23,6 @@
 	}
 
 	.js-open-board {
-		background: #fff !important;
 		font-weight: 300 !important;
 		border: 1px solid #eee;
 	}
@@ -149,7 +148,7 @@
 		padding: 5px !important;
 	}
 
-	.list-card:hover {
+	.active-card {
 		background: #fff !important;
 		transition: border 0.2s ease-out !important;
 		border: 1px solid #1E88E5 !important;
@@ -246,25 +245,23 @@
 		color: #fff !important;
 	}
 
+	/* Primary button */
 
-	/* Confirm button */
-
-	.confirm {
+	input.primary {
 		background: #1E88E5 !important;
 		box-shadow: none !important;
 		font-weight: 700 !important;
 	}
 
-	.confirm:hover {
+	input.primary:hover {
 		background: #1976D2 !important;
 	}
 
-	.confirm:disabled {
+	.input.primary:disabled {
 		background: none !important;
 		border: 1px solid #eee;
 		color: #ddd !important;
 	}
-
 
 	/* Cancel icon button */
 
@@ -457,5 +454,20 @@
 	.sidebar-section-header {
 		margin: 1pc 30px 10px 0px;
 		position: relative;
+	}
+
+	/* ----------------------- */
+	/* --- BOARDS SWITCHER --- */
+	/* ----------------------- */
+
+	.js-add-board {
+		color: #999 !important;
+		background: #fff !important;
+		border: 1px solid #eee !important;
+	}
+
+	.js-add-board:hover {
+		transition: border 0.2s ease-out !important;
+		border: 1px solid #1E88E5 !important;
 	}
 }
